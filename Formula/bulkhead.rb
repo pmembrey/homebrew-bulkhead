@@ -3,7 +3,7 @@ class Bulkhead < Formula
   homepage "https://github.com/pmembrey/bulkhead"
   url "https://github.com/pmembrey/bulkhead/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "971515ce2b15b200cc8fe2852225588b4aa5e240b713abad240edb02efb1396a"
-  license "MIT OR Apache-2.0"
+  license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/pmembrey/bulkhead.git", branch: "main"
 
   depends_on "rust" => :build
