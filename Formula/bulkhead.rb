@@ -1,8 +1,8 @@
 class Bulkhead < Formula
   desc "Hardened devcontainer CLI for local agent work"
   homepage "https://github.com/pmembrey/bulkhead"
-  url "https://github.com/pmembrey/bulkhead/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "08994ea95ac51eece7fa06a774259d4bf6bc18c090e955a9d0123b3b25d47dea"
+  url "https://github.com/pmembrey/bulkhead/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "4025d6edbf9f6867c25f1f6efaeecc64f28c658bb34532044ebcafbfbc155bc4"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/pmembrey/bulkhead.git", branch: "main"
 
